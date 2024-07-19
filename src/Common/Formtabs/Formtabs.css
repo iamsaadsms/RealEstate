@@ -1,0 +1,113 @@
+/* Formtabs.css */
+.Formtabs {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab-headers {
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+
+.tab-header {
+    cursor: pointer;
+    padding: 1vh 4vw;
+    color: #fff;
+    background-color: rgba(59, 57, 54, 0.1);
+}
+
+.tab-header.active {
+    font-weight: 500;
+    color: rgba(59, 57, 54, 0.8);
+    background: rgb(207, 148, 114);
+}
+
+.prop-type {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.prop {
+    padding: 2vh 3vw;
+    font-size: 3vh;
+    background: rgba(27, 27, 26, 0.9);
+    color: white;
+    margin-bottom:  6vh;
+}
+
+.form-data {
+    display: none;
+    margin-top: 1em;
+}
+
+.form-data.active {
+    display: block;
+}
+
+.prop-type, .bed-num, .currency {
+    margin-bottom: 1em;
+}
+
+.p-type, .b-num, .c-num {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.curr-country {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.curr-country a {
+    padding: 0.5em;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.curr-country a:hover {
+    background: #ccc;
+}
+
+.min-max {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.Min, .Max {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.Min-num {
+    flex: 1;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    background: #fff;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button {
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,6 @@
+.Home {
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    width: 100vw; /* Ensure it covers the full width */
+    overflow-x: hidden; /* Combine overflow-x and overflow-y */
+}

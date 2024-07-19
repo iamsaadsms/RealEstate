@@ -1,0 +1,22 @@
+.Navtabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3vh;
+    margin: 0;
+    width: 100%; /* Ensure it covers the full width */
+    overflow-x: hidden;
+}
+
+.l-tabs {
+    font-size: 3vh;
+    padding-left: 2vw;
+    letter-spacing: 0.2;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.l-tabs:hover {
+    color: rgb(207, 148, 114);
+}

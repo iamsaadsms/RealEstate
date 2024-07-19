@@ -1,0 +1,11 @@
+.form-bg {
+    width: 35vw;
+    height: 90vh;
+    position: absolute;
+    top: 10vh;
+    left: 60vw; /* Adjust the right position */
+    background: rgba(26, 25, 24, 0.9);
+    padding: 2vw; /* Add padding for inner content spacing */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+}
