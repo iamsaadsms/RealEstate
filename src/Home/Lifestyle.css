@@ -1,0 +1,101 @@
+.Lifestyle {
+    position: relative;
+    overflow: hidden; /* Ensure no overflow issues */
+    cursor: pointer;
+    background-image: url('../Media/back.webp'); /* Set background image */
+    background-size: cover; /* Ensure the background covers the container */
+    background-position: center; /* Center the background image */
+    border-bottom: 1px solid rgb(207, 148, 114);
+}
+
+.lifestyle-contents {
+    width: 100%;
+    opacity: 1;
+    position: relative; /* Ensure content is positioned correctly over the background */
+    background: rgba(37, 36, 36, 0.2);
+    padding-bottom: 20vh;
+}
+
+.l-head {
+    display: flex;
+    flex-direction: column;
+    color: rgb(211, 210, 199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10vh;
+    letter-spacing: 0.15vw;
+    line-height: 7vh;
+    font-weight: 100;
+    position: relative;
+}
+
+.life-h {
+    font-size: 5vh;
+}
+
+.life-sub {
+    font-size: 2.75vh;
+}
+
+.slider {
+    width: 95%; /* Ensure the slider takes the full width */
+    position: relative;
+}
+
+.slide-item {
+    padding: 0 0.5rem; /* Add padding around each slide */
+
+}
+
+.img-life {
+    width: 35vw;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.img-name {
+    color: rgb(211, 210, 199);
+    position: absolute;
+    font-family: Raleway, sans-serif;
+    font-weight: lighter;
+    background: rgba(37, 36, 36, 0.8);
+    top: 64.45vh;
+    width: 27.1vw;
+    margin-left: 0.6vw;
+}
+
+.loc-name {
+    font-size: 4vh;
+    opacity: 1;
+}
+
+.img-data-slide {
+    padding: 2vh;
+}
+
+.explore {
+    color: #fb7a00; /* Highlight 'EXPLORE' text */
+}
+
+
+.slide-controls {
+    color: rgb(211, 210, 199);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 3vh;
+    padding: 0vh 1vw;
+}
+
+.slide-controls span {
+    cursor: pointer;
+    margin-top: 4vh;
+    border-bottom: 1px solid rgb(207, 148, 114);
+    width: 20vw;
+    text-align: left;
+    line-height: 6vh;
+}
+
+div .next {
+    text-align: right;
+}
+

@@ -1,4 +1,4 @@
-/* Formtabs.css */
+/* src/components/Formtabs.css */
 .Formtabs {
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -57,6 +57,16 @@
     margin-bottom: 0.5em;
 }
 
+.c-num {
+    margin-top: 1.5vh;
+}
+
+.currency {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+
 .curr-country {
     display: flex;
     flex-wrap: wrap;
@@ -64,22 +74,31 @@
 }
 
 .curr-country a {
-    padding: 0.5em;
-    background: #fff;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     border-radius: 4px;
+    padding: 0.5em;
+    cursor: pointer;
+    color: rgba(73, 71, 68, 0.6);
+    font-size: 2.5vh;
+}
+
+.curr-country a.active {
+    color: #a59f9f;
 }
 
 .curr-country a:hover {
-    background: #ccc;
+    color: #8b8b8b;
+}
+
+.curr-country a:active {
+    color: #8b8b8b;
 }
 
 .min-max {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1em;
 }
 
 .Min, .Max {
@@ -91,23 +110,12 @@
     flex: 1;
     margin: 0 0.5em;
     padding: 0.5em;
-    background: #fff;
+    padding-top: 2.5vh;
     color: #000;
     border-radius: 4px;
     text-align: center;
+    height: 7vh;
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
 }
 
-button {
-    padding: 0.5em 1em;
-    margin-top: 1em;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-button:hover {
-    background-color: #0056b3;
-}

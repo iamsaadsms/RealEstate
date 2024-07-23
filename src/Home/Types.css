@@ -1,0 +1,114 @@
+.Types {
+    padding: 15vh 5vw;
+    color: rgb(211, 210, 199);
+    border-bottom: 1px solid rgb(207, 148, 114);
+}
+
+.tab-head {
+    margin-bottom: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6vh;
+    font-weight: lighter;
+}
+
+.tabs-types {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    color: rgb(211, 210, 199, 0.6);
+    cursor: pointer;
+}
+
+.tabs-types a {
+    padding-right: 2vw;
+}
+
+.tabs-types .active {
+    color: rgb(211, 210, 199);
+    font-weight: bold;
+    padding-bottom: 1vh;
+}
+
+.type-category {
+    margin-bottom: 2rem;
+
+}
+.splide {
+    margin: 0;
+    
+}
+
+.splide__slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prop-data {
+    display: flex;
+    flex-direction: column;
+    border: 0.25px solid rgb(211, 210, 199);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #111010;
+    height: auto; /* Adjust as needed to accommodate image height */
+    font-weight: lighter;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+}
+
+.data-slide {
+    text-align: left;
+    padding: 2vh 2vh;
+}
+
+.slide-head {
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prop-data p {
+    margin: 2vh 0vw;
+    font-size: 2.75vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cost {
+    font-size: 3.5vh;
+    line-height: 6vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.imgs-slide {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover; /* Ensure images cover the container and maintain aspect ratio */
+    border-radius: 8px;
+}
+
+.contact-slide {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3vh;
+    border-top: 0.25px solid rgb(211, 210, 199);
+}
+
+.contact-slide i {
+    border-right: 1px solid rgb(211, 210, 199);
+    padding: 2vh 5vw;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(207, 148, 114);
+}
+
+.bed {
+    padding-top: 3.5vh;
+    padding-left: 0.5vw;
+    font-size: 6vh;
+}
+
+.bath {
+    padding-top: 1vh;
+    font-size: 4vh;
+}

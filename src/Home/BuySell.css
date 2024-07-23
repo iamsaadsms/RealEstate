@@ -1,0 +1,70 @@
+.BuySell {
+    margin: 15vh 5vw;
+    flex-wrap: wrap;
+}
+
+.BuyRent {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.buy-rent {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(211, 210, 199);
+    text-align: center;
+    justify-content: center;
+}
+
+.br {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.bi-arrow-right {
+    font-size: 1.5rem;
+}
+
+.det {
+    margin: 1rem 0;
+}
+
+.br-det {
+    font-size: 1rem;
+    color: rgb(211, 210, 199);
+}
+
+.br-imgs {
+    width: 100%;
+    height: 200px; /* Set height for consistency */
+    position: relative;
+    overflow: hidden;
+}
+
+.br-pics {
+    width: 100%;
+    height: 100%; /* Ensure images fit container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Hide inactive image */
+.br-pics.hidden {
+    opacity: 0;
+    z-index: 1; /* Ensure it is below the active image */
+}
+
+/* Show active image */
+.br-pics.active {
+    opacity: 1;
+    z-index: 2; /* Ensure it is on top */
+}

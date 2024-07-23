@@ -1,0 +1,158 @@
+.exclusive-container {
+    width: 100vw;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin-bottom: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ex-top {
+    text-align: left;
+    padding-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+    color: rgb(211, 210, 199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ex-head {
+    font-size: 6vh;
+    font-weight: 100;
+    letter-spacing: 0.15vw;
+    padding-bottom: 4vh;
+}
+
+.head-com {
+    font-size: 3.25vh;
+    font-weight: 100;
+    letter-spacing: 0.1vw;
+    margin-bottom: 2vh;
+}
+
+.exclusive-slider {
+    flex: 1;
+}
+
+/* Add transition effect to image */
+.img-item {
+    width: 30vw;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out; /* Smooth transition for opacity */
+}
+
+/* Add transition effect to slide content */
+.slide-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    margin-left: 4vw;
+    margin-right: 3vw;
+    transition: transform 1s ease-in-out; /* Smooth transition for sliding effect */
+    cursor: grab;
+}
+
+
+.exclusive-data {
+    background-color: #111010;
+    width: 60vw; /* Adjust width as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    color: white;
+    text-align: left;
+    height: 80vh;
+    margin-left: 5vw;
+
+}
+
+
+.ex-data-details {
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.ex-data-left, .ex-data-right, .loc-p, .date  {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-content: space-between;
+    color: rgb(211, 210, 199);
+}
+
+.ex-heading {
+    font-size: 4vh;
+
+    letter-spacing: 0.1vw;
+}
+
+
+.ex-data-h {
+    margin-bottom: 3vh;
+    border-bottom: 1px solid rgb(207, 148, 114);
+    line-height: 6vh;
+    width: 20vw;
+    margin-right: 4vw;
+}
+
+.ex-data-p {
+    margin-bottom: 3vh;
+    white-space: wrap;
+    width: 20vw;
+}
+
+.ex-p{
+    font-size: 2.55vh;
+}
+
+.loc-p {
+    font-size: 2.6vh;
+    width: 45vw;
+    text-align: justify;
+    letter-spacing: 0.05vw;
+    line-height: 4vh;
+}
+
+.date {
+    font-size: 2.75vh;
+    line-height: 10vh;
+}
+
+.ex-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top: 5vh;
+}
+
+
+/* Hide the default Splide arrows */
+.splide__arrow {
+    display: none;
+}
+
+.slide-controls {
+    color: rgb(211, 210, 199);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 3vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.slide-controls span {
+    cursor: pointer;
+    margin-top: 4vh;
+    border-bottom: 1px solid rgb(207, 148, 114);
+    width: 20vw;
+    text-align: left;
+    line-height: 6vh;
+}
+
+div .next {
+    text-align: right;
+}
+

@@ -1,3 +1,11 @@
+.MainHome {
+    position: relative;
+    background: #111010;
+    height: 140vh;
+    margin: 0;
+    width: 100vw;
+}
+
 .bg {
     object-fit: cover;
 }

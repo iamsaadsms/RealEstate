@@ -1,0 +1,65 @@
+.Agents {
+    display: flex;
+    padding: 10vh 3vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(207, 148, 114);
+}
+
+.agent-pic {
+    height: 90vh;
+    width: 80vw;
+    object-fit: cover;
+}
+
+.ag-top {
+    text-align: left;
+    margin-left: 10vw;
+    color: rgb(211, 210, 199);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.ag-head {
+    font-size: 6vh;
+    font-weight: lighter;
+    letter-spacing: 0.1vw;
+    margin-bottom: 5vh;
+}
+
+.ag-body {
+    font-size: 2.5vh;
+    font-weight: lighter;
+    letter-spacing: 0.1vw;
+    margin-bottom: 5vh;
+    text-align: justify;
+    margin-right: 5vw;
+}
+
+.ag-btn {
+    margin-left: 10vw;
+    margin-top: 2vh;
+
+}
+
+.ag-stats {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vw;
+    margin-top: 4vh;
+    color: rgb(211, 210, 199);
+    border: 1px solid rgb(211, 210, 199);
+    border-left: none;
+    margin-bottom: 10vh;
+}
+
+.stats-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats {
+    font-size: 5vh;
+    margin-bottom: 2vh;
+    text-align: left;
+}

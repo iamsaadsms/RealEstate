@@ -1,0 +1,50 @@
+.PromptForm {
+    margin: 10vh 5vw;
+    padding: 5vh 5vw;
+    border: 1px solid rgb(207, 148, 114);
+    color: rgb(204, 202, 182);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #111010;
+}
+
+.pf-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.pf-h {
+    font-size: 5vh;
+}
+
+.pf-sub {
+    font-size: 3vh;
+    line-height: 6vh;
+}
+
+.pf-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pf-bio {
+    background: #111010;
+    border: none;
+    border-bottom: 1px solid rgb(211, 210, 199);
+    outline: none;
+    color: rgb(204, 202, 182);
+    padding-left: 1vw;
+    font-size: 2.5vh;
+}
+
+.pf-foot {
+    padding-top: 5vh;
+    font-size: 3vh;
+}
+
+.what {
+    color: rgb(207, 148, 114);
+    padding-left: 1vw;
+    cursor: pointer;
+}
