@@ -20,3 +20,8 @@
 .l-tabs:hover {
     color: rgb(207, 148, 114);
 }
+
+.link-tabs {
+    text-decoration: none;
+    color: rgb(211, 210, 199);
+}

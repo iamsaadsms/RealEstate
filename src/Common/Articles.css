@@ -1,0 +1,91 @@
+.Types-article {
+    color: rgb(211, 210, 199);
+    border-bottom: 1px solid rgb(207, 148, 114);
+    padding: 15vh 5vw; /* Adjust padding as needed */
+}
+
+.tab-head-article {
+    margin-bottom: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 6vh;
+    font-weight: lighter;
+}
+
+.type-category-article {
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to new rows */
+    gap: 5vh 0vw; /* Spacing between items */
+    justify-content: space-around; /* Ensure items are spaced evenly */
+}
+
+.prop-data-article {
+    display: flex;
+    flex-direction: column;
+    border: 0.25px solid rgb(211, 210, 199);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #111010;
+    font-weight: lighter;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+    flex: 0 1 calc(50% - 2vw); /* Two items per row with margin */
+    box-sizing: border-box; /* Include padding and border in element's width/height */
+}
+
+.data-slide-article {
+    text-align: left;
+    padding: 0vh 2vw;
+}
+
+.slide-head-article {
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prop-data-article p {
+    margin:1vh 0vw;
+    font-size: 2.75vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cost-article {
+    font-size: 3.5vh;
+    line-height: 6vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+
+.contact-slide-article {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3vh;
+    border-top: 0.25px solid rgb(211, 210, 199);
+}
+
+.contact-slide-article i {
+    border-right: 1px solid rgb(211, 210, 199);
+    padding: 2vh 7vw;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(207, 148, 114);
+}
+
+.bed-article {
+    padding-top: 3.5vh;
+    padding-left: 0.5vw;
+    font-size: 6vh;
+}
+
+.bath-article {
+    padding-top: 1vh;
+    font-size: 4vh;
+}
+
+.imgs-slide-article {
+    height: 30vh;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+}

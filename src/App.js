@@ -1,14 +1,25 @@
 import './App.css';
 import Home from './Home/Home';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import '@splidejs/splide/dist/css/splide.min.css';
-
-
+import Buy from './Buy/Buy';
+// import Rent from './Rent/Rent';
+// import Sell from './Sell/Sell';
+// import Agents from './Agents/Agents';
+// import TheAxWay from './TheAxWay/TheAxWay';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/buy" element={<Buy />} />
+          {/* <Route path="/rent" element={<Rent />} />
+          <Route path="/sell" element={<Sell />} />
+          <Route path="/agents" element={<Agents />} />
+          <Route path="/ax-way" element={<TheAxWay />} /> */}
+        </Routes>
+      </Router>
     </div>
   );
 }
