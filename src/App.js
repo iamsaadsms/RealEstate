@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './Home/Home';
 import Buy from './Buy/Buy';
-// import Rent from './Rent/Rent';
+import Rent from './Rent/Rent';
 // import Sell from './Sell/Sell';
 // import Agents from './Agents/Agents';
 // import TheAxWay from './TheAxWay/TheAxWay';
@@ -14,8 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/buy" element={<Buy />} />
-          {/* <Route path="/rent" element={<Rent />} />
-          <Route path="/sell" element={<Sell />} />
+          <Route path="/rent" element={<Rent />} />
+          {/* <Route path="/sell" element={<Sell />} />
           <Route path="/agents" element={<Agents />} />
           <Route path="/ax-way" element={<TheAxWay />} /> */}
         </Routes>
