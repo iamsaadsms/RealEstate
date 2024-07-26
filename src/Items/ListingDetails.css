@@ -1,0 +1,31 @@
+.listing-row {
+    text-align: left;
+    margin-left: 2vw;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+    padding: 5vh 2vw;
+    border: 1px solid white;
+    width: 61vw;
+}
+
+.ld-head {
+    margin: 5vh 2vw;
+    text-align: left;
+    font-size: 4vh;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+}
+
+.left-list, .right-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 0vw;
+}
+
+.ld-list {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    border-bottom: 1px solid white ;
+    line-height: 6vh;
+}

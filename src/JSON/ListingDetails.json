@@ -1,0 +1,142 @@
+[
+    {
+        "id":"1",
+        "loc": "Burj Khalifa",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"2",
+        "loc": "Dubai Marina",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"3",
+        "loc": "Burj Khalifa",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"4",
+        "loc": "Sur La Mer Townhouses",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"5",
+        "loc": "Dubai Media City",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"6",
+        "loc": "Sur La Mer Townhouses",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"7",
+        "loc": "Dubai Marina",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"8",
+        "loc": "Damac Hills",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"9",
+        "loc": "Business Bay",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"10",
+        "loc": "Sobha Hartland",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"11",
+        "loc": "Dubailand",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"12",
+        "name": "Cherry Woods",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"13",
+        "loc": "Emaar South",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"14",
+        "loc": "Damac Lagoons",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"15",
+        "loc": "Al Furjan",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"16",
+        "loc": "Meydan Gated Community",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"17",
+        "loc": "Tilal Al Ghaf",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"18",
+        "loc": "Villanova Dubai Properties",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"19",
+        "loc": "Arabian Ranches 1",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    },
+    {
+        "id":"20",
+        "loc": "Signature Villas",
+        "furnishing":"Furnished",
+        "pricepersqft":"2361 AED",
+        "rera":"axc-3979274"
+    }
+]
