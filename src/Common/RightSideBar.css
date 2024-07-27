@@ -1,0 +1,49 @@
+.RightSideBar {
+    width: 33vw;
+    padding: 3vh 1vw;
+    border: 1px solid white;
+    color: rgb(211, 210, 199);
+}
+
+.con-data {
+    display: flex;
+}
+
+.agent-img {
+    width: 8vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.con-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 4vh 1vw;
+    letter-spacing: 0.1vw;
+}
+
+.con-name {
+    font-size: 3.5vh;
+}
+
+.con-post {
+    font-size: 2.25vh;
+    line-height: 4vh;
+}
+
+.con-btns {
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    justify-content: space-between;
+}
+
+.con-contact {
+    text-align: center;
+    font-size: 3vh;
+}
+
+.what-con {
+    color: rgb(207, 148, 114);
+}

@@ -12,6 +12,8 @@ import Description from "./Description";
 import ListingDetails from "./ListingDetails";
 import Types from "../Home/Types";
 import Lifestyle from "../Home/Lifestyle";
+import RightSideBar from "../Common/RightSideBar";
+import Share from "../Common/Share";
 const Items = () => {
     const location = useLocation();
     const { images = [], name, loc, baths, bed, area, cost, id } = location.state || {};
@@ -32,38 +34,48 @@ const Items = () => {
     return (
       <div className="Items">
         <Navbar />
-        <ImageCarousel images={images} />
-        <div className="item-data">
-            <span className="it-nm">{name}</span>
-            <div className="cost-items">
-                <p className="it-price">AED {formatNumberWithCommas(cost)}</p>
-                <span className="book right"><i className="bi bi-bookmark mark"></i></span>
-            </div>
-            <hr />
-            <div className="it-extra">
-                <p><i className="bi bi-geo-alt-article"></i> {loc}</p>
-                <div className="b-items">
-                    <BiBath className='bath-it' />
-                    <p className="b-it">
-                        {baths}  
-                    </p>
+        <div className="items-content">
+            <div className="items-left">
+                <ImageCarousel images={images} />
+                <div className="item-data">
+                    <span className="it-nm">{name}</span>
+                    <div className="cost-items">
+                        <p className="it-price">AED {formatNumberWithCommas(cost)}</p>
+                        <span className="book right"><i className="bi bi-bookmark mark"></i></span>
+                    </div>
+                    <hr />
+                    <div className="it-extra">
+                        <p><i className="bi bi-geo-alt-article"></i> {loc}</p>
+                        <div className="b-items">
+                            <BiBath className='bath-it' />
+                            <p className="b-it">
+                                {baths}  
+                            </p>
+                        </div>
+                        <div className="b-items">
+                        <FaBed className='bed-it' />
+                        <p className="b-it"> 
+                            {bed}  
+                        </p>
+                        </div>
+                        <p>
+                            <i className="bi bi-geo-alt-it"></i> {area} sq.ft
+                        </p>
+                    </div>
+                    <hr />
                 </div>
-                <div className="b-items">
-                <FaBed className='bed-it' />
-                <p className="b-it"> 
-                    {bed}  
-                </p>
-                </div>
-                <p>
-                    <i className="bi bi-geo-alt-it"></i> {area} sq.ft
-                </p>
+                <Features itemId={id} />
+                <hr />
+                <Description itemId={id} />
+                <ListingDetails itemId={id} />
             </div>
-            <hr />
+            <div className="items-right">
+                <div className="items-right-data">
+                    <RightSideBar />
+                    <Share />
+                </div>
+            </div>
         </div>
-        <Features itemId={id} />
-        <hr />
-        <Description itemId={id} />
-        <ListingDetails itemId={id} />
         <Types head={"SIMILAR PROPERTIES"} imagesList={image}/>
         <Lifestyle />
         <Footer />

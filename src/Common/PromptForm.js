@@ -2,9 +2,9 @@ import React from "react";
 import './PromptForm.css';
 import Button from "./Button";
 
-const PromptForm = () => {
+const PromptForm = ({style}) => {
     return(
-        <div className="PromptForm">
+        <div className="PromptForm" style={style}>
             <div className="pf-head">
                 <span className="pf-h">PROMPT CONSULTATION</span>
                 <span className="pf-sub">Fill in the form and our agent will contact you shortly.</span>

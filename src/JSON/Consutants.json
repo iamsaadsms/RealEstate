@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Ahmed Al Farsi",
+        "position": "Senior Property Consultant",
+        "experience": "15 years",
+        "languages": "Arabic, English"
+    },
+    {
+        "name": "Liam Smith",
+        "position": "Property Consultant",
+        "experience": "7 years",
+        "languages": "English, Spanish"
+    },
+    {
+        "name": "Fatima Khan",
+        "position": "Sales Manager",
+        "experience": "10 years",
+        "languages": "Urdu, English, Arabic"
+    },
+    {
+        "name": "Chen Wei",
+        "position": "Property Consultant",
+        "experience": "5 years",
+        "languages": "Mandarin, English"
+    },
+    {
+        "name": "Anastasia Ivanov",
+        "position": "Property Consultant",
+        "experience": "6 years",
+        "languages": "Russian, English"
+    },
+    {
+        "name": "Carlos Mendes",
+        "position": "Senior Property Consultant",
+        "experience": "12 years",
+        "languages": "Portuguese, English"
+    },
+    {
+        "name": "Hanan El Sayed",
+        "position": "Sales Executive",
+        "experience": "8 years",
+        "languages": "Arabic, English, French"
+    },
+    {
+        "name": "John O'Connor",
+        "position": "Property Consultant",
+        "experience": "4 years",
+        "languages": "English, German"
+    },
+    {
+        "name": "Maria Gomez",
+        "position": "Property Consultant",
+        "experience": "3 years",
+        "languages": "Spanish, English"
+    },
+    {
+        "name": "Nina Patel",
+        "position": "Sales Manager",
+        "experience": "11 years",
+        "languages": "Hindi, English, Gujarati"
+    },
+    {
+        "name": "Ethan Brown",
+        "position": "Property Consultant",
+        "experience": "2 years",
+        "languages": "English, French"
+    },
+    {
+        "name": "Yuki Tanaka",
+        "position": "Property Consultant",
+        "experience": "7 years",
+        "languages": "Japanese, English"
+    },
+    {
+        "name": "Sara Ali",
+        "position": "Senior Property Consultant",
+        "experience": "14 years",
+        "languages": "Arabic, English"
+    },
+    {
+        "name": "George Wilson",
+        "position": "Property Consultant",
+        "experience": "6 years",
+        "languages": "English, Italian"
+    },
+    {
+        "name": "Elena Petrova",
+        "position": "Sales Executive",
+        "experience": "5 years",
+        "languages": "Russian, English"
+    },
+    {
+        "name": "Ibrahim Musa",
+        "position": "Property Consultant",
+        "experience": "3 years",
+        "languages": "Arabic, English"
+    },
+    {
+        "name": "Lucas Martin",
+        "position": "Sales Manager",
+        "experience": "9 years",
+        "languages": "French, English, Spanish"
+    },
+    {
+        "name": "Aisha Mohammed",
+        "position": "Property Consultant",
+        "experience": "2 years",
+        "languages": "Arabic, English"
+    },
+    {
+        "name": "Oliver Lee",
+        "position": "Property Consultant",
+        "experience": "4 years",
+        "languages": "English, Korean"
+    },
+    {
+        "name": "Priya Singh",
+        "position": "Senior Property Consultant",
+        "experience": "10 years",
+        "languages": "Hindi, English"
+    }
+]

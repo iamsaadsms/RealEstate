@@ -1,0 +1,31 @@
+.sellimg {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    padding-top: 10vh;
+    background: rgb(17, 16, 16, 0.1);
+    opacity: 0.5;
+}
+
+.img-content-sell {
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+    text-align: center;
+    color: rgb(211, 210, 199);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1vw;
+}
+
+.sell-head {
+    font-size: 9vh;
+}
+
+.sell-sub {
+    font-size: 4vh;
+    line-height: 6vh;
+    padding-left: 2vw;
+}
