@@ -20,7 +20,7 @@ const Footer = () => {
         {
             c1:"Villas",
             c2:"Area Guides",
-            c3:"AX Corporate"
+            c3:"Corporate"
         },
         {
             c1:"Townhouses",
@@ -80,10 +80,10 @@ const Footer = () => {
                 </div>
             </div>
             <div className="credit-foot">
-                <span className="cr-ft">AX CAPITAL 2024. All Rights Reserved.</span>
+                <span className="cr-ft">REAL ESTATE 2024. All Rights Reserved.</span>
                 <span className="cr-ft">Terms of Use</span>
                 <span className="cr-ft">Privacy Policy</span>
-                <span className="cr-ft">Created By BluePexel.</span>
+                <span className="cr-ft">Developed By Backtreq.</span>
             </div>
         </div>
     )
