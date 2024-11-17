@@ -3,7 +3,7 @@ import './Home.css';
 import Navbar from "../Common/Navbar";
 import MainHome from "./MainHome";
 import Exclusives from "../Common/Exclusives";
-import BuySell from "./BuySell";
+// import BuySell from "./BuySell";
 import Agents from "./Agents";
 import Types from "./Types";
 import Lifestyle from "./Lifestyle";
@@ -24,7 +24,7 @@ const Home = () => {
             <Navbar />
             <MainHome />
             <Exclusives />
-            <BuySell />
+            // <BuySell />
             <Agents />
             <Types head={"LUXURY PROPERTIES"} imagesList={images} />
             <Lifestyle />
