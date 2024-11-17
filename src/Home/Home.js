@@ -24,7 +24,7 @@ const Home = () => {
             <Navbar />
             <MainHome />
             <Exclusives />
-            // <BuySell />
+            {/* <BuySell /> */}
             <Agents />
             <Types head={"LUXURY PROPERTIES"} imagesList={images} />
             <Lifestyle />
