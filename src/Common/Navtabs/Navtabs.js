@@ -7,8 +7,8 @@ const Navtabs = () => {
         { name: "Buy", link: "/buy" },
         { name: "Rent", link: "/rent" },
         { name: "Sell", link: "/sell" },
-        { name: "Agents", link: "/agents" },
-        { name: "THE AX WAY", link: "/ax-way" }
+        { name: "Agents", link: "/agents" }
+        // { name: "THE AX WAY", link: "/ax-way" }
     ];
     return (
         <div className="Navtabs">
