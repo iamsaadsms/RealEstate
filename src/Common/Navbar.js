@@ -2,12 +2,14 @@ import React from "react";
 import './Navbar.css';
 import logo from '../Media/logo.jpg';
 import Navtabs from "./Navtabs/Navtabs";
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div className="Navbar">
             <div className="left-side">
-                <img className="logo" src={logo} alt="logo" />
+                <Link to={'/}>
+                    <img className="logo" src={logo} alt="logo" />
+                </Link>
                 <div className="left-tabs">
                     <Navtabs />
                 </div>
