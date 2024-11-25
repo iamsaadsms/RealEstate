@@ -9,7 +9,7 @@
 .Navbar {
     display: flex;
     justify-content: space-between;
-    background: rgba(1, 1, 1, 0.851);
+    background: #111010;
     color: rgb(223, 223, 223);
     border-bottom: 0.5px solid rgb(255, 212, 187);
     width: 100%;

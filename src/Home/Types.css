@@ -31,8 +31,9 @@
     padding-bottom: 1vh;
 }
 
-.type-category {
+.slick-slide {
     /* margin-bottom: 2rem; */
+    overflow: hidden;
 }
 
 .splide {
@@ -58,6 +59,7 @@
     width: 30vw;
     align-content: space-between;
     justify-content: space-between;
+    overflow-y: hidden;
 }
 
 .data-slide {
@@ -124,7 +126,7 @@
     justify-content: space-between;
     cursor: pointer;
     font-size: 3vh;
-
+    padding-top: 4vh;
 }
 
 .type-controls span {
@@ -139,3 +141,23 @@ div .next-type {
     text-align: right;
 }
 
+.image-slider-container {
+    margin-bottom: 4vh;
+    position: relative;
+    text-align: center;
+}
+
+.image-controls button {
+    background: rgb(211, 210, 199, 0.7);
+    border: none;
+    color: #111010;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 2vh;
+    margin: 0 1rem;
+    transition: background 0.3s ease;
+}
+
+.image-controls button:hover {
+    background: rgb(211, 210, 199);
+}
